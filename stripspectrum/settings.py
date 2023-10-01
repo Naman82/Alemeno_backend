@@ -29,6 +29,9 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = False
 
 CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://strip-spectrum.vercel.app/"
+]
 ALLOWED_HOSTS = ["*"]
 
 
